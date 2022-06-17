@@ -1,0 +1,32 @@
+/* navbar */
+
+html {
+    font-family: sans-serif;
+    color: #40595a;
+}
+header {
+    border-bottom: solid 4px #40595a;
+    background-color: #7faeb1;
+}
+.divNavbar{
+    max-width: 800px;
+    border: 2px solid yellow;
+}
+
+.container-navbar nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-navbar h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.container-navbar ul 
+{
+    display: inline;
+}
+
+
