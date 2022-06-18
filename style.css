@@ -2,11 +2,6 @@ html {
     font-family: sans-serif;
     color: #40595a;
 }
-/* ul li a:link {
-	
-} */
-
-/* navbar */
 
 .navbar {
     border-bottom: 5px solid #40595a;
@@ -14,7 +9,6 @@ html {
     
 }
 .container-navbar {
-    border: 2px solid yellow;
     display: flex;
     height: 70px;
     max-width: 800px;
@@ -30,7 +24,7 @@ html {
 }
 .container-navbar h1{
     margin-left: 20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 .container-navbar nav ul li a:link {
