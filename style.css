@@ -1,32 +1,39 @@
-/* navbar */
-
 html {
     font-family: sans-serif;
     color: #40595a;
 }
-header {
-    border-bottom: solid 4px #40595a;
+/* ul li a:link {
+	
+} */
+
+/* navbar */
+
+.navbar {
+    border-bottom: 5px solid #40595a;
     background-color: #7faeb1;
+    
 }
-.divNavbar{
-    max-width: 800px;
+.container-navbar {
     border: 2px solid yellow;
-}
-
-.container-navbar nav {
     display: flex;
-    justify-content: flex-end;
+    height: 70px;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.container-navbar h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    display: flex;
-}
-
-.container-navbar ul 
-{
+.container-navbar ul li {
     display: inline;
+    margin-right: 20px;
+    font-weight: bold;
 }
-
-
+.container-navbar h1{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.container-navbar nav ul li a:link {
+    text-decoration: none;
+    color: #40595a;
+}
