@@ -103,6 +103,17 @@ html {
 }
 
 /* deuxième partie avec le carré d'abords puis le texte */
+p {
+    color: black;
+}
+
+.green-blue {
+    color: #7faeb1;
+}
+.bold {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .second-part {
     display: flex;
     justify-content: space-between;
