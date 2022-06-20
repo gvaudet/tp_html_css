@@ -82,6 +82,7 @@ html {
     position: relative;
     width: 170px;
     background-color:#a4dde0;
+    z-index: -1;
 }
 
 #top-right {
@@ -151,6 +152,7 @@ html {
     color: white;
 }
 
-.legal {
+.legal a:link{
     color: white;
+    text-decoration: none;
 }
