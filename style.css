@@ -47,18 +47,21 @@ html {
     justify-content: space-between;
 }
 .pic-1 {
+    display: flex;
     width: 170px;
     background-color: #7faeb1;
 }
 #top-left {
-    border: 1px solid black;
     height: 67px;
     width: 56px;
+    margin-right: auto;
+    background-color: #40595a;
 }
 #bottom-right {
-    border: 1px solid yellow;
     height: 133px;
     width: 114px;
+    align-self: flex-end;
+    background-color: #40595a;
 }
 .pic-2 {
     display: flex;
