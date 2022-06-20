@@ -50,6 +50,16 @@ html {
     width: 170px;
     background-color: #7faeb1;
 }
+#top-left {
+    border: 1px solid black;
+    height: 67px;
+    width: 56px;
+}
+#bottom-right {
+    border: 1px solid yellow;
+    height: 133px;
+    width: 114px;
+}
 .pic-2 {
     display: flex;
     justify-content: center;
