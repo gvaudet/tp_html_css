@@ -35,8 +35,7 @@ html {
 /* main */ 
 
 .main {
-    border: 2px solid red;
-    max-width: 700px;
+    max-width: 600px;
     margin: 150px auto;
     align-content: space-between;
 }
@@ -44,12 +43,10 @@ html {
 /* première parttie du mainnnnn avec les 3 images */
 .first-part {
     display: flex;
-    border: 2px solid purple;
     height: 200px;
     justify-content: space-between;
 }
 .pic-1 {
-    border: 1px solid black;
     width: 170px;
     background-color: #7faeb1;
 }
@@ -57,7 +54,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid pink;
     width: 170px;
     background-color: #7faeb1;
 }
@@ -67,28 +63,60 @@ html {
     background-color: #40595a;
 }
 .pic-3 {
-    border: 1px solid gray;
     width: 170px;
     background-color:#a4dde0;
 }
 
-
+/* deuxième partie avec le carré d'abords puis le texte */
 .second-part {
-    border: 2px solid yellow;
-    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin: 45px 0 45px 0;
 }
+.second-part p {
+    margin-left: 30px;
+    max-width: 400px;
+}
+.square {
+    width: 170px;
+    background-color: #7faeb1;
+}
+
+/* troisième partie avec le texte puis le carré */
 .third-part {
-    border: 2px solid blue;
-    height: 170px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 200px;
 }
 
+.third-part p {
+    margin-right: 30px;
+    max-width: 400px;
+}
 
+/* footer */ 
 
-
-/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    border-top: 3px  solid #40595a;
+    background-color: #7faeb1;
+}
 
 .foot-nav {
-        background-color: #7faeb1;
-        border-top: 3px solid #40595a;
-        height: 150px;
+    margin-top: 40px;
+}
+.foot-nav ul li {
+    display: inline;
+}
+.foot-nav ul li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.legal {
+    color: white;
 }
