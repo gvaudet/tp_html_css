@@ -135,24 +135,24 @@ html {
 
 .footer {
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
     height: 150px;
     border-top: 3px  solid #40595a;
     background-color: #7faeb1;
 }
 
-.foot-nav {
-    margin-top: 40px;
-}
 .foot-nav ul li {
     display: inline;
 }
 .foot-nav ul li a:link {
+    margin-left: 10px;
     text-decoration: none;
     color: white;
 }
 
-.legal a:link{
-    color: white;
+.legal a{
     text-decoration: none;
+    color: white;
 }
